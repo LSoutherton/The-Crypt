@@ -1,0 +1,49 @@
+.order-page-summary {
+    border: 4px solid white;
+    width: 85%;
+    height: fit-content;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+    min-height: 400px;
+}
+
+.orders-title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.order-info {
+    border-bottom: 3px solid white;
+    width: 85%;
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.order-info-variable {
+    margin-left: 20px;
+}
+
+.order-total {
+    margin-top: 4px;
+}
+
+.no-orders {
+    text-align: center;
+    margin-top: 10%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .order-page-summary {
+        margin: auto;
+        text-align: center;
+    }
+
+    .order-info-variable {
+        display: block;
+        margin: 0;
+    }
+}

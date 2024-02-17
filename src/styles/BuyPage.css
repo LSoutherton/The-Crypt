@@ -1,0 +1,100 @@
+.buy-page-container {
+    width: 30%;
+    height: 60%;
+    border: 3px solid white;
+    position: fixed;
+    background-color: rgb(19, 19, 70);
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+    padding: 3%;
+    padding-top: 1%;
+    min-height: 300px
+}
+
+.buy-page-title {
+    text-align: center;
+}
+
+.buy-page-image {
+    width: 58%;
+    margin: auto;
+    display: inline;
+}
+
+.buy-page-input-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 40%
+}
+
+.user-input-container {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.input-text {
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.buy-page-input {
+    height: 30%;
+    position: relative;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    background-color: rgb(107, 107, 151);
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+}
+
+.buy-page-input::placeholder {
+    color: white;
+}
+
+.buy-page-buttons-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 20px;
+    height: 50px;
+    align-items: center;
+}
+
+.buy-page-close-button {
+    height: 80%;
+    margin: auto;
+    width: 90%;
+    border: 3px solid white;
+    background-color: rgb(144, 18, 18);
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.buy-page-cart-button {
+    height: 80%;
+    margin: auto;
+    width: 90%;
+    border: 3px solid white;
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+    .buy-page-container {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .buy-page-container {
+        width: 85%;
+    }
+}

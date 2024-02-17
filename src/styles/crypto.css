@@ -1,0 +1,104 @@
+.crypto-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background-color: rgb(19, 19, 58);
+    color: white;
+    grid-column-gap: 8px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+.currency-slab {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 220px;
+    height: 235px;
+    display: grid;
+    grid-template-rows: 20px 150px 37.5px 37.5px;
+    padding: 14px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+.currency-slab-show {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 220px;
+    height: 345px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-rows: 20px 150px 37.5px 37.5px 37.5px 37.5px;
+    padding: 14px;
+    transition: 0.5s;
+}
+
+.currency-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.image {
+    width: 120px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.stats-text-container {
+    font-size: 16px;
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: 140px 80px;
+    padding-top: 10px;
+    position: relative;
+    height: 27.5px;
+}
+
+.stats-text {
+    margin: 0;
+}
+
+.stats-number {
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 11px
+}
+
+.hide {
+    display: none;
+}
+
+.buy-button {
+    color: white;
+    background-color: green;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 100px;
+    height: 100%;
+    cursor: pointer;
+    z-index: 10;
+    position: relative;
+}
+
+.more-button {
+    color: white;
+    background-color: rgb(144, 18, 18);
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 100px;
+    height: 100%;
+    float: right;
+    cursor: pointer;
+    z-index: 10;
+    position: relative;
+}
