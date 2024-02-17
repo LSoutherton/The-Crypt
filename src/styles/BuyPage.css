@@ -10,7 +10,8 @@
     border-radius: 20px;
     padding: 3%;
     padding-top: 1%;
-    min-height: 300px
+    min-height: 300px;
+    z-index: 1000;
 }
 
 .buy-page-title {
@@ -89,7 +90,7 @@
 
 @media only screen and (max-width: 1000px) {
     .buy-page-container {
-        width: 400px;
+        width: 90%;
     }
 }
 

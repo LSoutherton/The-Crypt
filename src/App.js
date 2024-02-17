@@ -89,48 +89,56 @@ function App() {
     const newArray = [].concat(coinData)
       .sort((a,b) => b.current_price - a.current_price);
     setCoinData(newArray)
+    setShowFilters(previousShowFilters => !previousShowFilters)
   }
 
   const priceLowToHigh = () => {
     const newArray = [].concat(coinData)
       .sort((a,b) => a.current_price - b.current_price);
     setCoinData(newArray)
+    setShowFilters(previousShowFilters => !previousShowFilters)
   }
 
   const ATHHighToLow = () => {
     const newArray = [].concat(coinData)
       .sort((a,b) => b.ath - a.ath);
     setCoinData(newArray)
+    setShowFilters(previousShowFilters => !previousShowFilters)
   }
 
   const ATHLowToHigh = () => {
     const newArray = [].concat(coinData)
       .sort((a,b) => a.ath - b.ath);
     setCoinData(newArray)
+    setShowFilters(previousShowFilters => !previousShowFilters)
   }
 
   const percentageHighToLow = () => {
     const newArray = [].concat(coinData)
       .sort((a,b) => b.ath_change_percentage - a.ath_change_percentage);
     setCoinData(newArray)
+    setShowFilters(previousShowFilters => !previousShowFilters)
   }
 
   const percentageLowToHigh = () => {
     const newArray = [].concat(coinData)
       .sort((a,b) => a.ath_change_percentage - b.ath_change_percentage);
     setCoinData(newArray)
+    setShowFilters(previousShowFilters => !previousShowFilters)
   }
 
   const marketCapHighToLow = () => {
     const newArray = [].concat(coinData)
       .sort((a,b) => b.market_cap - a.market_cap);
     setCoinData(newArray)
+    setShowFilters(previousShowFilters => !previousShowFilters)
   }
 
   const marketCapLowToHigh = () => {
     const newArray = [].concat(coinData)
       .sort((a,b) => a.market_cap - b.market_cap);
     setCoinData(newArray)
+    setShowFilters(previousShowFilters => !previousShowFilters)
   }
   
   return (
